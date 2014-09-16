@@ -14,6 +14,7 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
 
+    @IBOutlet weak var imageComponent: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -50,6 +51,9 @@ class SignInViewController: UIViewController {
     @IBAction func onTap(sender: AnyObject) {
         self.view.endEditing(true)
     }
+    @IBAction func onSignInBackClick(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
     func keyboardWillShow(notification: NSNotification!) {
         // top: -85px
@@ -71,6 +75,7 @@ class SignInViewController: UIViewController {
             // If you need it, you can use the kbSize property above to get the keyboard width and height.
                 self.topView.frame.origin.y -= 85
                 self.bottomView.frame.origin.y -= kbSize.height
+                self.imageComponent.alpha = 0
             }, completion: nil)
     }
     
@@ -91,6 +96,7 @@ class SignInViewController: UIViewController {
             // If you need it, you can use the kbSize property above to get the keyboard width and height.
                 self.topView.frame.origin.y += 85
                 self.bottomView.frame.origin.y += kbSize.height
+                self.imageComponent.alpha = 1
             }, completion: nil)
     }
     /*

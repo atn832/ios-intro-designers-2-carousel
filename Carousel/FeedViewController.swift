@@ -16,7 +16,7 @@ class FeedViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        scrollView.contentSize.height = 1000
+        scrollView.contentSize.height = 3 * 568
     }
 
     override func didReceiveMemoryWarning() {

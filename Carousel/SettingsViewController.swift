@@ -25,10 +25,9 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onCloseClick(sender: AnyObject) {
-        view.endEditing(true)
+    @IBAction func onDismissClick(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
-
     /*
     // MARK: - Navigation
 
