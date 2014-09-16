@@ -13,6 +13,9 @@
 		56DCD5BA19C7D66A000419AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DCD5B919C7D66A000419AF /* Images.xcassets */; };
 		56DCD5BD19C7D66A000419AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56DCD5BB19C7D66A000419AF /* LaunchScreen.xib */; };
 		56DCD5C919C7D66A000419AF /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5C819C7D66A000419AF /* CarouselTests.swift */; };
+		56DCD5D319C7D721000419AF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D219C7D721000419AF /* IntroViewController.swift */; };
+		56DCD5D519C7D791000419AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D419C7D791000419AF /* SignInViewController.swift */; };
+		56DCD5D719C7E511000419AF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D619C7E511000419AF /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		56DCD5C219C7D66A000419AF /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DCD5C719C7D66A000419AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56DCD5C819C7D66A000419AF /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		56DCD5D219C7D721000419AF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		56DCD5D419C7D791000419AF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		56DCD5D619C7E511000419AF /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		56DCD5A419C7D66A000419AF = {
 			isa = PBXGroup;
 			children = (
+				56DCD5D619C7E511000419AF /* WelcomeViewController.swift */,
 				56DCD5AF19C7D66A000419AF /* Carousel */,
 				56DCD5C519C7D66A000419AF /* CarouselTests */,
 				56DCD5AE19C7D66A000419AF /* Products */,
@@ -83,6 +90,8 @@
 				56DCD5B919C7D66A000419AF /* Images.xcassets */,
 				56DCD5BB19C7D66A000419AF /* LaunchScreen.xib */,
 				56DCD5B019C7D66A000419AF /* Supporting Files */,
+				56DCD5D219C7D721000419AF /* IntroViewController.swift */,
+				56DCD5D419C7D791000419AF /* SignInViewController.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -212,6 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DCD5D519C7D791000419AF /* SignInViewController.swift in Sources */,
+				56DCD5D719C7E511000419AF /* WelcomeViewController.swift in Sources */,
+				56DCD5D319C7D721000419AF /* IntroViewController.swift in Sources */,
 				56DCD5B519C7D66A000419AF /* ViewController.swift in Sources */,
 				56DCD5B319C7D66A000419AF /* AppDelegate.swift in Sources */,
 			);
