@@ -39,7 +39,7 @@ class SignInViewController: UIViewController {
         if (emailText.text == "") {
             var alertView = UIAlertView(title: "Email Required", message: "Please enter your email address", delegate: self, cancelButtonTitle: "OK")
             alertView.show()
-        } else if (emailText.text != "atn832@gmail.com" && passwordText.text != "112233") {
+        } else if (emailText.text != "atn832@gmail.com" || passwordText.text != "112233") {
             var alertView = UIAlertView(title: "Sign In Failed", message: "Incorrect email or password", delegate: self, cancelButtonTitle: "OK")
             alertView.show()
         } else {
