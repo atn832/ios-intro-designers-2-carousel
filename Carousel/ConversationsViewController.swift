@@ -1,5 +1,5 @@
 //
-//  IntroViewController.swift
+//  ConversationsViewController.swift
 //  Carousel
 //
 //  Created by Anh Tuan on 9/15/14.
@@ -8,15 +8,12 @@
 
 import UIKit
 
-class IntroViewController: UIViewController {
+class ConversationsViewController: UIViewController {
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        scrollView.contentSize.height = 568 * 2
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +21,9 @@ class IntroViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onBackClick(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

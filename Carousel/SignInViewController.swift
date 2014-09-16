@@ -42,7 +42,7 @@ class SignInViewController: UIViewController {
             var alertView = UIAlertView(title: "Sign In Failed", message: "Incorrect email or password", delegate: self, cancelButtonTitle: "OK")
             alertView.show()
         } else {
-            
+            performSegueWithIdentifier("welcomeSegue", sender: self)
         }
     }
     

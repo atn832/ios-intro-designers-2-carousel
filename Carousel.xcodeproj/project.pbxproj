@@ -16,6 +16,9 @@
 		56DCD5D319C7D721000419AF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D219C7D721000419AF /* IntroViewController.swift */; };
 		56DCD5D519C7D791000419AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D419C7D791000419AF /* SignInViewController.swift */; };
 		56DCD5D719C7E511000419AF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D619C7E511000419AF /* WelcomeViewController.swift */; };
+		56DCD5D919C7ED3D000419AF /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5D819C7ED3D000419AF /* ConversationsViewController.swift */; };
+		56DCD5DB19C7EED5000419AF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5DA19C7EED5000419AF /* SettingsViewController.swift */; };
+		56DCD5DD19C7F85B000419AF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCD5DC19C7F85B000419AF /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		56DCD5D219C7D721000419AF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		56DCD5D419C7D791000419AF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		56DCD5D619C7E511000419AF /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		56DCD5D819C7ED3D000419AF /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		56DCD5DA19C7EED5000419AF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		56DCD5DC19C7F85B000419AF /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				56DCD5B019C7D66A000419AF /* Supporting Files */,
 				56DCD5D219C7D721000419AF /* IntroViewController.swift */,
 				56DCD5D419C7D791000419AF /* SignInViewController.swift */,
+				56DCD5D819C7ED3D000419AF /* ConversationsViewController.swift */,
+				56DCD5DA19C7EED5000419AF /* SettingsViewController.swift */,
+				56DCD5DC19C7F85B000419AF /* FeedViewController.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -223,8 +232,11 @@
 			files = (
 				56DCD5D519C7D791000419AF /* SignInViewController.swift in Sources */,
 				56DCD5D719C7E511000419AF /* WelcomeViewController.swift in Sources */,
+				56DCD5DB19C7EED5000419AF /* SettingsViewController.swift in Sources */,
 				56DCD5D319C7D721000419AF /* IntroViewController.swift in Sources */,
+				56DCD5D919C7ED3D000419AF /* ConversationsViewController.swift in Sources */,
 				56DCD5B519C7D66A000419AF /* ViewController.swift in Sources */,
+				56DCD5DD19C7F85B000419AF /* FeedViewController.swift in Sources */,
 				56DCD5B319C7D66A000419AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

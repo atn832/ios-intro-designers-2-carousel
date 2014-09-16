@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  FeedViewController.swift
 //  Carousel
 //
 //  Created by Anh Tuan on 9/15/14.
@@ -8,19 +8,15 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController, UIScrollViewDelegate {
+class FeedViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var openTimelineView: UIView!
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        scrollView.contentSize.width = 1280
-        scrollView.delegate = self
+        scrollView.contentSize.height = 1000
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,21 +24,7 @@ class WelcomeViewController: UIViewController, UIScrollViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView!) {
-        // Get the current page based on the scroll offset
-        var page : Int = Int(round(scrollView.contentOffset.x / 320))
-        
-        // Set the current page, so the dots will update
-        pageControl.currentPage = page
-        println("updating to page \(page)")
-        
-        if (page == 3) {
-            openTimelineView.alpha = 1
-        } else {
-            openTimelineView.alpha = 0
-        }
-    }
-    
+
     /*
     // MARK: - Navigation
 
