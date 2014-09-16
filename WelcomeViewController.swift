@@ -34,7 +34,6 @@ class WelcomeViewController: UIViewController, UIScrollViewDelegate {
         
         // Set the current page, so the dots will update
         pageControl.currentPage = page
-        println("updating to page \(page)")
         
         if (page == 3) {
             openTimelineView.alpha = 1
